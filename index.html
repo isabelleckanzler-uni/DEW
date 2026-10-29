@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+    <link rel="icon" type="image/png" href="img/form.png">
+    <script src="form.js" defer></script>
+    <link rel="stylesheet" href="tem.css">
+</head>
+<body>  
+    <div class="banner">
+        <h1>Calculadora de médias Acadêmica</h1>   
+   </div>
+    
+    <form id="formularioAcademico">
+        <label for="nome">Nome do Aluno:</label>
+        <input type="text" id="nome" required>
+        <br><br>
+        
+        <label for="nota1">1ª Nota:</label>
+        <input type="number" id="nota1" step="0.1"step="0.1" min="0" max="10" required>
+        <br><br>
+        
+        <label for="nota2">2ª Nota:</label>
+        <input type="number" id="nota2" step="0.1" step="0.1" min="0" max="10"required>
+        <br><br>
+        
+        <button type="submit">Calcular Média</button>
+        <button type="reset">Limpar Campos</button>
+    </form>
+    <h2 id="resultado"></h2>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    padding: 100px;
+    background-color: blanchedalmond;
+    margin: 50px 50px;    
+    text-align: center;
+    text-shadow: 10px;   
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: solid;
+}
+.banner{
+    background-color:#CA9100;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.textoResultado.textContent{
+    text-decoration: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
